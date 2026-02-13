@@ -1,0 +1,19 @@
+{
+	"name": "zen-garden",
+	"private": true,
+	"version": "0.0.0",
+	"type": "module",
+	"scripts": {
+		"dev": "vite",
+		"build": "tsc && vite build",
+		"preview": "vite preview"
+	},
+	"dependencies": {
+		"@vitejs/plugin-vue": "^6.0.4",
+		"vue": "^3.5.28"
+	},
+	"devDependencies": {
+		"typescript": "~5.9.3",
+		"vite": "^7.1.7"
+	}
+}
